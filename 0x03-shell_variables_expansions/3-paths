@@ -1,0 +1,2 @@
+#!/bin/bash
+IFS=':' read -ra PATH_DIRS <<< "$PATH"; echo "There are ${#PATH_DIRS[@]} directories in the PATH"
