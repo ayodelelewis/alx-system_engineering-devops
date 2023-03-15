@@ -1,2 +1,3 @@
 #!/bin/bash
-compgen -v | tr '\n' ' '; compgen -e | tr '\n' ' '
+( set -o posix ; set ) | less
+compgen -A function | less
