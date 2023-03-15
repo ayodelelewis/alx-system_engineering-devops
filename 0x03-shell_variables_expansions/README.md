@@ -1,0 +1,1 @@
+This repository contains examples and exercises related to shell variables and expansions in Unix-based systems. These concepts are essential for shell scripting, system administration, and programming on Unix-based systems.
