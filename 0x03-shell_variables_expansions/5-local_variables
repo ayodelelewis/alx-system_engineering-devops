@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p
+set | grep -vE 'BASH_FUNC|^_' | awk -F= '{print $1"="$2}'
